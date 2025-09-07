@@ -1,5 +1,6 @@
 name = "main-core-assets"
 compatibility_date = "2025-09-07"
 
-# Site configuration, bucket = "." artinya root project
-site = { bucket = "." }
+# Konfigurasi site untuk file statis
+type = "javascript"
+site = { bucket = ".", include = ["*.js"] }
