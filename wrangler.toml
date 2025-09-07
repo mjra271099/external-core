@@ -1,6 +1,0 @@
-name = "main-core-assets"
-compatibility_date = "2025-09-07"
-
-# Konfigurasi site untuk file statis
-type = "javascript"
-site = { bucket = ".", include = ["*.js"] }
